@@ -15,15 +15,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
             <!--height 50->70dp으로 변경-->
-            <TextView
-                android:id="@+id/textView"
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="@color/oat_yellow"
-                />
+
             <FrameLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="70dp"
+                android:background="@color/oat_yellow">
                 <!--back 버튼 textview로 구현-->
                 <TextView
                     android:id="@+id/back_btn"
@@ -33,7 +29,7 @@
                     android:paddingLeft="20dp"
                     android:fontFamily="@font/goyang"
                     android:textColor="@color/mocha_brown"
-                    android:text="<" />
+                    android:text="&lt;" />
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
