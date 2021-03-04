@@ -31,7 +31,7 @@
                     android:textColor="@color/mocha_brown"
                     android:text="&lt;" />
                 <TextView
-                    android:id="@+id/textView2"
+
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/goyang"
@@ -40,13 +40,13 @@
                     android:paddingBottom="15dp"
                     android:textSize="30sp"
                     android:textColor="@color/mocha_brown"
-                    android:text="위치정보 설정"/>
+                    android:text="이용약관"/>
 
 
             </FrameLayout>
 
             <TextView
-                android:id="@+id/textView3"
+                
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="70dp"
@@ -54,29 +54,12 @@
                 android:fontFamily="@font/jsdongkang_regular"
                 android:textSize="20sp"
                 android:textColor="@color/mocha_brown"
-                android:text="\n사용자 위치기반 서비스를 이용하시기 위해서는 위치정보를 설정하셔야 합니다. \n\n위치정보를 설정하시겠습니까?"/>
-            <!--글씨체 고양->정선으로 바꿈(토글부분) -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginTop="250dp"
-                android:gravity="center_vertical"
-                android:background="@color/grey"
-                android:padding="10dp"
-                android:fontFamily="@font/jsdongkang_regular"
-                android:textColor="@color/mocha_brown"
-                android:textSize="25sp"
-                android:text="위치 정보 접근 허용"/>
-            <Switch
-                android:id="@+id/location_accept_switch"
-                android:layout_width="wrap_content"
-                android:layout_height="60dp"
-                android:layout_marginTop="250dp"
-                android:paddingRight="20dp"
-                android:switchMinWidth="50dp"
-                android:track="@drawable/switch_track_selector"
-                android:thumb="@drawable/switch_thumb"
-                android:layout_gravity="right" />
+                android:text="\n다람쥐창고의 이용약관은 아래와 같습니다.
+                              \n이용약관 어쩌구 저쩌구
+                              \n어쩌구 저쩌구"/>
+
+
+
         </FrameLayout>
     </LinearLayout>
 
