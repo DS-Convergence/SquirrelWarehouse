@@ -27,6 +27,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SquirrelWarehouse" >
+        <activity android:name="com.example.squirrelwarehouse.ReportActivity" />
+        <activity android:name="com.example.squirrelwarehouse.TermsAndConditionsActivity" />
+        <activity android:name="com.example.squirrelwarehouse.DeleteAccountActivity" />
         <activity android:name="com.example.squirrelwarehouse.SetLocationInformationActivity" />
         <activity android:name="com.example.squirrelwarehouse.MainActivity" >
             <intent-filter>
