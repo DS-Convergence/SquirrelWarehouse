@@ -50,6 +50,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+array report_arrsy
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -1972,6 +1973,11 @@ id ignore
 id ignoreRequest
 id image
 id imageView
+id imageView11
+id imageView12
+id imageView13
+id imageView14
+id imageView15
 id imageView2
 id imageView3
 id imageView4
@@ -2165,7 +2171,9 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id textView10
+id textView11
 id textView2
 id textView3
 id textView4
@@ -2281,8 +2289,11 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_delete_account
 layout activity_main
+layout activity_report
 layout activity_set_location_information
+layout activity_terms_and_conditions
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -2352,6 +2363,8 @@ layout product_detail_submenu
 layout product_form
 layout product_rental_camera
 layout product_rental_qr
+layout product_return_camera
+layout product_return_qr
 layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
@@ -2370,6 +2383,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout user_evaluation
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
