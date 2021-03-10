@@ -220,6 +220,10 @@ attr chipSurfaceColor
 attr circleCrop
 attr circleRadius
 attr circularProgressIndicatorStyle
+attr civ_border_color
+attr civ_border_overlay
+attr civ_border_width
+attr civ_circle_background_color
 attr clickAction
 attr clockFaceBackgroundColor
 attr clockHandColor
@@ -1676,6 +1680,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable blank_profile_picture
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -1752,6 +1757,8 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable siren
+drawable splash
 drawable switch_thumb
 drawable switch_track_off
 drawable switch_track_on
@@ -1952,6 +1959,7 @@ id floating
 id forever
 id ghost_view
 id ghost_view_holder
+id go_sign_up_btn
 id gone
 id graph
 id graph_wrap
@@ -1968,10 +1976,13 @@ id hybrid
 id icon
 id icon_group
 id icon_only
+id id_login
+id id_sign_up
 id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageView
 id imageView11
 id imageView12
@@ -2002,6 +2013,7 @@ id linear
 id listMode
 id list_item
 id location_accept_switch
+id log_in_btn
 id masked
 id material_clock_display
 id material_clock_face
@@ -2058,6 +2070,7 @@ id mtrl_view_tag_bottom_padding
 id multiply
 id navigation_header_container
 id never
+id nick_sign_up
 id noScroll
 id none
 id normal
@@ -2084,6 +2097,8 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id pw_login
+id pw_sign_up
 id radio
 id ratio
 id rectangles
@@ -2122,6 +2137,7 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
+id sign_up_btn
 id sin
 id skipCollapsed
 id slide
@@ -2290,10 +2306,14 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_delete_account
+layout activity_log_in
 layout activity_main
 layout activity_report
 layout activity_set_location_information
+layout activity_sign_up
+layout activity_splash
 layout activity_terms_and_conditions
+layout activity_user_setting
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3255,6 +3275,7 @@ styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
 styleable Chip android_textAppearance android_textSize android_textColor android_ellipsize android_maxWidth android_text android_checkable checkedIcon checkedIconEnabled checkedIconTint checkedIconVisible chipBackgroundColor chipCornerRadius chipEndPadding chipIcon chipIconEnabled chipIconSize chipIconTint chipIconVisible chipMinHeight chipMinTouchTargetSize chipStartPadding chipStrokeColor chipStrokeWidth chipSurfaceColor closeIcon closeIconEnabled closeIconEndPadding closeIconSize closeIconStartPadding closeIconTint closeIconVisible ensureMinTouchTargetSize hideMotionSpec iconEndPadding iconStartPadding rippleColor shapeAppearance shapeAppearanceOverlay showMotionSpec textEndPadding textStartPadding
 styleable ChipGroup checkedChip chipSpacing chipSpacingHorizontal chipSpacingVertical selectionRequired singleLine singleSelection
+styleable CircleImageView civ_border_color civ_border_overlay civ_border_width civ_circle_background_color
 styleable CircularProgressIndicator indicatorDirectionCircular indicatorInset indicatorSize
 styleable ClockFaceView clockFaceBackgroundColor clockNumberTextColor
 styleable ClockHandView clockHandColor materialCircleRadius selectorSize
