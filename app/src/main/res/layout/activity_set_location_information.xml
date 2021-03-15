@@ -76,7 +76,8 @@
                 android:switchMinWidth="50dp"
                 android:track="@drawable/switch_track_selector"
                 android:thumb="@drawable/switch_thumb"
-                android:layout_gravity="right" />
+                android:layout_gravity="right"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
         </FrameLayout>
     </LinearLayout>
 
